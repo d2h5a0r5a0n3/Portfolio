@@ -1,0 +1,280 @@
+footer{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+#Contacts,#Projects,#Certificates,#Home{
+    border:2px solid var(--text-color);
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 0 20px  var(--shadow-color);
+}
+#Skills{
+    border:2px solid var(--text-color);
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+#contact,#project,#certificate,#skill{
+    border-bottom:2px solid var(--text-color);
+    margin-left: 90px;
+    margin-right: 90px;
+    animation: fadeIn 2s ease forwards, scale 2s ease-in-out ;
+}
+#about{
+    color: #000000;
+    border-bottom:2px solid black;
+    margin-left: 90px;
+    margin-right: 90px;
+    animation: fadeIn 2s ease forwards, scale 2s ease-in-out ;
+    position: sticky;
+    top:5%;
+}
+.fa-solid.fa-envelope,.fa-brands.fa-linkedin,.fa-brands.fa-instagram{
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    color:var(--text-color);
+}
+.fa-brands.fa-github,.fa-brands.fa-facebook{
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    color:var(--text-color);
+    border:0px;
+}
+.fa-solid.fa-envelope:hover {
+    transform: scale(1.2);
+    background-color: rgba(0,255,255,0.91);
+    -webkit-box-shadow:0px 0px 6px 4px rgba(0,255,255,0.91);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+    box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+}
+.fa-brands.fa-linkedin:hover,.fa-brands.fa-facebook:hover{
+    transform: scale(1.2);
+    background-color: rgba(10,102,194,0.91);    
+    -webkit-box-shadow:0px 0px 4px 4px rgba(10,105,194,0.91);
+    -moz-box-shadow: 0px 0px 4px 4px rgba(10,105,194,0.91);
+    box-shadow: 0px 0px 4px 4px rgba(10,105,194,0.91);
+}
+.fa-brands.fa-github:hover{
+    transform: scale(1.2);
+    background-color: rgba(17, 12, 12, 0.91);
+    -webkit-box-shadow:0px 0px 4px 4px rgba(0,0,0,0.91);
+    -moz-box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.91);
+    box-shadow: 0px 0px 4px 4   px rgba(0,0,0,0.91);
+}
+.fa-brands.fa-instagram:hover{
+    transform: scale(1.2);
+    background-color: rgba(242, 32, 189, 0.91); 
+    -webkit-box-shadow:0px 0px 4px 4px rgba(228, 64, 95,0.91);
+    -moz-box-shadow: 0px 0px 4px 4px rgba(228, 64, 95,0.91);
+    box-shadow: 0px 0px 4px 4px rgba(228, 64, 95,0.91);
+}
+#li{
+    font-size: larger;
+    font-weight: 500;
+}
+.btn.btn-info:hover {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    transform: scale(1.07);
+}
+#li1{
+    font-size: larger;
+    font-weight: 500;
+}
+.form-control.list-unstyled{
+    background-color: var(--background-color);
+    border: none;
+}
+.form-label{
+    font-size: larger;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 30px;
+    color: var(--text-color);
+}
+#Html{
+    height: 7px;
+    margin-left: 30px;
+
+}
+#CSS{
+    height: 7px;
+    margin-left: 30px;
+}
+#Java{
+    height: 7px;
+    margin-left: 30px;
+}
+#JavaScript{
+    height: 7px;
+    margin-left: 30px;
+}#SQL{
+    height: 7px;
+    margin-left: 30px;
+}#Python{
+    height: 7px;
+    margin-left: 30px;
+}
+#C{
+    height: 7px;
+    margin-left: 30px;
+}
+.progress-bar.move {
+    animation: moveRight 2s ease-in-out forwards;
+}
+#About{
+    border:2px solid black;
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 0 20px  black;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:contain;
+    height: 100vh;
+    overflow: scroll;
+}
+#p{
+    color: #000000;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 60%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+#abt{
+    font-size: x-large;
+    font-weight: 650;
+}
+#Home{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: right;
+}
+#home{
+    width: 70%;
+    height: 100vh;
+    padding-top: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+#home h2{
+    font-size:60px;
+    animation: fadeIn 2s ease forwards, scale 2s ease-in-out ;  
+}
+#home h1{
+    font-size: 70px;
+    animation: fadeIn 5s ease-in-out forwards;
+}
+#f{
+    font-size: 40px;
+    color: rgb(56, 255, 1); 
+}
+#home h5{
+    display: inline;
+}
+.btn.btn-primary{
+    color:var(--text-color);
+}
+.btn.btn-primary:hover{
+    background-color: rgb(0, 162, 255);
+    color:var(--background-color);
+    transform: scale(1.07);
+    background-color: rgba(0,255,255,0.91);
+    -webkit-box-shadow:0px 0px 6px 4px rgba(0,255,255,0.91);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+    box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+}
+#navbar-brand{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#navbar-brand:hover{
+    -webkit-box-shadow:0px 0px 6px 4px rgba(0,255,255,0.91);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+    box-shadow: 0px 0px 8px 4px #00ffffe8;
+    border-bottom:3px solid white;
+    color: white;
+    transform: scale(1.1);
+}
+.nav-link:hover{
+    -webkit-box-shadow:0px 0px 6px 4px rgba(0,255,255,0.91);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+    box-shadow: 0px 0px 6px 4px rgba(0,255,255,0.91);
+    color:white;
+    border-bottom:3px solid white;
+    transform: scale(1.1);
+}
+b:hover{
+    color:white;
+}
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000; 
+    --shadow-color: rgba(0, 0, 0, 0.5); 
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode {
+    --background-color: #121212; 
+    --text-color: #ffffff; 
+    --shadow-color: rgba(255, 253, 253, 0.873); 
+    
+}
+@keyframes moveRight {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+@keyframes scale {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+}
