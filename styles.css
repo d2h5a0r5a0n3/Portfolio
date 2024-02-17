@@ -142,7 +142,6 @@ footer{
     animation: fadeIn 2s ease forwards;
     box-shadow: 0 0 20px  var(--shadow-color);
     height: auto;
-    overflow: scroll;
 }
 #p{
     color: var(--text-color);
@@ -164,7 +163,7 @@ footer{
 }
 #home{
     width: 70%;
-    height: 100vh;
+    margin-bottom: 20px;
     padding-top: 20%;
     margin-left: 10%;
     text-align: left;
