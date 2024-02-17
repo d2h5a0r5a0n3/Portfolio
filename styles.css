@@ -145,7 +145,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:contain;
-    height: 100vh;
+    height: auto;
     overflow: scroll;
 }
 #p{
@@ -166,7 +166,7 @@ footer{
     background-image: url(image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     background-position: right;
     overflow: scroll;
 }
