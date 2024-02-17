@@ -169,6 +169,7 @@ footer{
     background-size: cover;
     height: 100vh;
     background-position: right;
+    overflow:scroll;
 }
 #home{
     width: 70%;
