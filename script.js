@@ -6,12 +6,12 @@ dark.addEventListener('click',()=>{
 function change(){
     let change=dark.querySelector('i');
     if(body.classList.contains('dark-mode')){
-        change.classList.remove("fa-sun");
-        change.classList.add("fa-moon");
-    }
-    else{
         change.classList.remove("fa-moon");
         change.classList.add("fa-sun");
+    }
+    else{
+        change.classList.remove("fa-sun");
+        change.classList.add("fa-moon");
     }
 }
 document.addEventListener('DOMContentLoaded', function() {
