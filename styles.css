@@ -31,8 +31,8 @@ footer{
     animation: fadeIn 2s ease forwards, scale 2s ease-in-out ;
 }
 #about{
-    color: #000000;
-    border-bottom:2px solid black;
+    color: var(--text-color);
+    border-bottom:2px solid var(--text-color);
     margin-left: 90px;
     margin-right: 90px;
     animation: fadeIn 2s ease forwards, scale 2s ease-in-out ;
@@ -134,25 +134,20 @@ footer{
     animation: moveRight 2s ease-in-out forwards;
 }
 #About{
-    border:2px solid black;
+    border:2px solid var(--text-color);
     border-radius: 13px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     animation: fadeIn 2s ease forwards;
-    box-shadow: 0 0 20px  black;
-    background-image: url(img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:contain;
+    box-shadow: 0 0 20px  var(--shadow-color);
     height: auto;
     overflow: scroll;
 }
 #p{
-    color: #000000;
+    color: var(--text-color);
     margin-top: 70px;
-    margin-left: 50px;
-    width: 60%;
+
     text-align: center;
     font-size: x-large;
     font-weight: 600;
@@ -163,10 +158,7 @@ footer{
     font-weight: 650;
 }
 #Home{
-    background-image: url(image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+   height:auto;
     background-position: right;
     overflow: scroll;
 }
@@ -178,16 +170,17 @@ footer{
     text-align: left;
 }
 #home h2{
-    font-size:60px;
+    font-size:40px;
     animation: fadeIn 2s ease forwards, scale 2s ease-in-out ;  
 }
 #home h1{
     font-size: 70px;
     animation: fadeIn 5s ease-in-out forwards;
+    color: red;
 }
 #f{
     font-size: 40px;
-    color: rgb(56, 255, 1); 
+    color: rgb(16, 136, 50); 
 }
 #home h5{
     display: inline;
@@ -349,9 +342,9 @@ body {
     font-size:small;    
     width: 60%;
    }
-    footer{
-        font-size:smaller;
-    }
+   footer{
+    font-size: smaller;
+   }
 }
 #con{
     font-weight:bold;
