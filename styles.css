@@ -230,7 +230,7 @@ footer{
 b:hover{
     color:white;
 }
-:root {
+.dark-mode {
     --background-color: #ffffff;
     --text-color: #000000; 
     --shadow-color: rgba(0, 0, 0, 0.5); 
@@ -240,7 +240,7 @@ body {
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
-.dark-mode {
+:root {
     --background-color: #121212; 
     --text-color: #ffffff; 
     --shadow-color: rgba(255, 253, 253, 0.873); 
