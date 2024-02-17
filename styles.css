@@ -163,7 +163,7 @@ footer{
 }
 #home{
     width: 70%;
-    margin-bottom: 20px;
+    margin-bottom: 15%;
     padding-top: 20%;
     margin-left: 10%;
     text-align: left;
@@ -218,6 +218,10 @@ footer{
 }
 b:hover{
     color:white;
+}
+#image{
+    border: 3px solid var(--text-color);
+    box-shadow: 0 0 20px  var(--shadow-color);
 }
 :root {
     --background-color: #121212; 
